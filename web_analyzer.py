@@ -130,8 +130,8 @@ except Exception as e:
 
 
 
+# Part 7
 
-import matplotlib.pyplot as plt
 labels = ['Headings', 'Links', 'Paragraphs']
 values = [headings_count, links_count, paragraphs_count]
 plt.bar(labels, values)
